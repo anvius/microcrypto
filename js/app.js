@@ -1,5 +1,5 @@
 window.onload = function() {
-  fetch(`https://api.coinmarketcap.com/v1/ticker/${crypto}/?convert=EUR`)
+  fetch("https://api.coinmarketcap.com/v1/ticker/"+crypto+"/?convert=EUR")
   .then(function(response) { return response.json(); })
   .then(function(data) {
     document.title.value = data.name;
