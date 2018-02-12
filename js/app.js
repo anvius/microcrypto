@@ -4,4 +4,6 @@ window.onload = function() {
                 .then(function(data) { coin = Object.assign(coin, data[0]) });
 }
 
-console.log(coin);
+document.title = coin.name;
+var title = document.getElementsByTagName("h1");
+title.value = coin.name + "(" + coin.symbol + ")";
