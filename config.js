@@ -1,1 +1,2 @@
-var coin.name = "Cardano";
+var coin;
+coin.name = "Cardano";
