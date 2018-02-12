@@ -1,3 +1,3 @@
 var coin = {
-  name: "Cardano"
+  crypto: "Cardano"
 }
