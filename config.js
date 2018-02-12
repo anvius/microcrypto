@@ -1,1 +1,1 @@
-coin = "Cardano";
+coin.name = "Cardano";
