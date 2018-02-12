@@ -1,2 +1,3 @@
-var coin;
-coin.name = "Cardano";
+var coin = {
+  name: "Cardano"
+}
