@@ -5,5 +5,5 @@ window.onload = function() {
 }
 
 document.title.value = coin.name;
-var title = document.getElementsByTagName("h1");
-title.value = coin.name + "(" + coin.symbol + ")";
+var title = document.getElementsByTagName("h1")[0];
+title.innerHTML = coin.name + "(" + coin.symbol + ")";
