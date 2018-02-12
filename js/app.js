@@ -6,4 +6,5 @@ window.onload = function() {
     var title = document.getElementsByTagName("h1")[0];
     title.innerHTML = data.name + "(" + data.symbol + ")";
   });
+  console.log("https://api.coinmarketcap.com/v1/ticker/"+crypto+"/?convert=EUR");
 }
