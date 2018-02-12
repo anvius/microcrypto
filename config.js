@@ -1,3 +1,1 @@
-var coin = {
-  crypto: "Cardano"
-}
+var crypto = "Cardano";
